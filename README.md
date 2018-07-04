@@ -1,2 +1,4 @@
-# beepnow-contract
-Token Contract
+# Beepnow
+
+## Token Contract
+
