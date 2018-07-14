@@ -1,0 +1,31 @@
+Initially
+---------
+(Unlock Account)
+1.Check for the set date 
+2.Check for End date
+3.Initial supply
+4.Prices array
+
+
+Go to build folder
+------------------
+Check for 2_deploy_contracts.js file and setup the deployment order and the check for the accounts.
+
+
+Go to contracts folder
+----------------------
+truffle console
+truffle compile
+truffle migrate --reset
+
+Note: delete the build contracts folder if you want to redeploy the contract.
+
+
+set the variables and do approval and allowance in the truffle console so as to interact with the contracts
+-----------------------------------------------------------------------------------------------------------
+BeepToken.deployed().then(function(instance){token=instance})
+
+(or)
+
+token = BeepToken.at ("tokenContractAddress")
+
