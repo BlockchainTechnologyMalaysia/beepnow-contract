@@ -31,7 +31,7 @@ module.exports = function(deployer,network,accounts) {
   const BeepTokenAdmin=web3.eth.accounts[3];
   //const DestinationWallet="0xCC0A7383ED9BC24D3b719bCE59A56e477DfEEA97"; //hardware wallet
   const DestinationWallet="0xEf35eFE6296d0cecD121Cf6B1974c07B3E8C3D43"; //hardware wallet
-  const tokenAddress="";
+  const tokenAddress="0x992e3ce20febb7fade6fbe32ae1d4b146f471c47";
 
   deployer.deploy(BeepTokenGeneration,ICOAdmin,tokenAddress,DestinationWallet,ReserveAccount);
 };
